@@ -1,0 +1,114 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --light-theme-color: #ffffff;
+  --dark-logo-text-color: #000000;
+  --light-background-color: #f5f4fa;
+  --dark-background-color: #2f303a;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f4fa;
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* Navigation */
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+
+  color: var(--dark-logo-text-color);
+}
+
+.logo-accent {
+  color: var(--accent-color);
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+
+  color: var(--primary-text-color);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contact-info-link:hover,
+.contact-info-link:focus {
+  color: var(--accent-color);
+}
+
+.nav .nav-link.current {
+  color: var(--accent-color);
+}
+
+.contact-info-link {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  font-style: normal;
+
+  color: var(--secondary-text-color);
+}
+
+/* Hero */
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  background-color: var(--dark-background-color);
+  color: var(--light-theme-color);
+}
+
+.btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  background-color: var(--accent-color);
+  color: var(--light-theme-color);
+}
+
+/* Features */
+
+.feature-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.feature-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-text-color);
+}
