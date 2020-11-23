@@ -29,6 +29,11 @@ ul {
 a {
   font-style: normal;
   text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
 }
 
 /* Components */
@@ -49,6 +54,8 @@ a {
   line-height: 1.166;
   text-align: center;
 }
+
+/* ======= STUDIO ======= */
 
 /* Navigation */
 
@@ -99,7 +106,7 @@ a {
   color: var(--light-theme-color);
 }
 
-.btn {
+.hero-btn {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -109,8 +116,6 @@ a {
 
   background-color: var(--accent-color);
   color: var(--light-theme-color);
-
-  border: none;
 }
 
 /* Features */
@@ -156,11 +161,49 @@ a {
 .address-link {
   line-height: 1.714;
 
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--light-address-link-color);
 }
 
 .address-link:hover,
 .address-link:focus {
-  color: var(--light-address-link-color);
+  color: var(--light-theme-color);
   scroll-behavior: smooth;
 }
+
+/* ======= STUDIO END ======= */
+
+/* ======= PORTFOLIO ======= */
+
+/* Projects */
+
+.projects-nav-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+
+  background-color: var(--light-bakground-color);
+}
+
+.projects-nav-btn:hover,
+.projects-nav-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--light-theme-color);
+}
+
+.projects-list-item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.projects-list-item-text {
+  font-size: 16px;
+  line-height: 1.875;
+
+  color: var(--secondary-text-color);
+}
+
+/* ======= PORTFOLIO END ======= */
